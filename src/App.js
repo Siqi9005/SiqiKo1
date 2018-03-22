@@ -3,7 +3,7 @@ import Landingpage from "./Landing.js";
 import Chat from "./Chat.js"
 import Sticker from "./Sticker.js";
 import Game from "./Game.js";
-
+import Question from "./Question.js";
 class App extends Component {
     constructor(props){
         super(props);
@@ -22,7 +22,6 @@ class App extends Component {
         })
     }
     
-    
   render() {
       
           
@@ -36,6 +35,8 @@ class App extends Component {
         cPage = <Sticker />
     }else if (this.state.page === "Game"){
         cPage = <Game />
+    }else if (this.state.page === "Question"){
+        cPage = <Question />
     }
     return (
         <div>
