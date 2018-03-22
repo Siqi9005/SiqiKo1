@@ -33,8 +33,7 @@ class Game extends Component {
     
     
      randomMove() {
-         
-     /*this.refs["im"].style.position = "absolute";*/ 
+  
          
   this.refs["im"].style.top = Math.floor(Math.random() * window.innerHeight) + "px";
     
