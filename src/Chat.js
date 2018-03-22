@@ -25,7 +25,7 @@ class Chat extends Component {
     }
     
     componentDidMount(){
-        //this.socket = mySocket("http://localhost:10001")
+    
     }
                       
     joinChat(){
@@ -96,8 +96,7 @@ class Chat extends Component {
              
               />
               
-              <button className="btn2" onClick={this.sendChat}>
-              Send
+              <button className="btn2" onClick={this.sendChat}>Send
               </button>
               </div>
               
@@ -119,7 +118,7 @@ class Chat extends Component {
       <div className="chat">
         
         <div id="topbar">
-        <p> Chart Room</p>
+        <p> Chating Room</p>
         
         </div>
         
